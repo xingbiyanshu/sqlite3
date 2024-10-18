@@ -9,8 +9,16 @@ add_executable(sqlite3
     main.cpp
     sqlite3.h
     sqlite3.c
+    member.h member.cpp
+    department.h department.cpp
+    memberdao.h memberdao.cpp
+    memberbrief.h memberbrief.cpp
 
-
+    node.h node.cpp
+    domain.h domain.cpp
+    bloc.h bloc.cpp
+    group.h group.cpp
+    repository.h repository.cpp
 )
 
 include(GNUInstallDirs)
